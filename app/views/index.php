@@ -35,7 +35,7 @@
                         <a style="font-family='NeoSansLight'" href="#popup" class="popup-link" onclick="jmgModal('miventana',{
 				               title: '¡ADVERTENCIA!', width: 400, height: 20,
                                content: 'El contenido disponible a continuación tiene carácter meramente informativo, por lo cual te recomendamos no hacer uso de ello como referencia bibliográfica. '},
-                               ['CONTINUAR',function(){                                 window.open('http://www.luminet.edu.mx:8000/wikipedia_es_all_novid_2018-04/');}]);">
+                               ['CONTINUAR',function(){                                 window.open('http://192.168.10.10:8080/wikipedia/');}]);">
                             <div class="txtwrap"><i class="block fa fa-4x fa-wikipedia-w"></i>
                                 <h6 class="heading"><strong>Wikipedia</strong></h6>
                             </div>
@@ -43,7 +43,7 @@
                         <footer> <a href="#popup" class="popup-link" onclick="jmgModal('miventana',{
 				               title: '¡ADVERTENCIA!', width: 400, height: 20,
                                content: 'El contenido disponible a continuación tiene carácter meramente informativo, por lo cual te recomendamos no hacer uso de ello como referencia bibliográfica.'},
-                               ['CONTINUAR',function(){                                  window.open('http://www.luminet.edu.mx:8000/wikipedia_es_all_novid_2018-04/');}]);"> Ir&raquo;</a></footer>
+                               ['CONTINUAR',function(){                                  window.open('http://192.168.10.10:8080/wikipedia/');}]);"> Ir&raquo;</a></footer>
                     </article>
                 </li>
                 <li class="one_third active">
@@ -78,12 +78,12 @@
                 </li>
                 <li class="one_third active">
                     <article class="bgded overlay" style="background-image:url('public/pictures/khan_logo.png');">
-                        <a href="http://www.luminet.edu.mx:8008/learn/khan/" target="_blank">
+                        <a href="http://192.168.10.10:8008/learn/khan/" target="_blank">
                             <div class="txtwrap"><i class="block fa fa-4x fa-university"></i>
                                 <h6 class="heading"><strong>Khan Academy</strong></h6>
                             </div>
                         </a>
-                        <footer><a href="http://www.luminet.edu.mx:8008/learn/khan/" target="_blank">Ir &raquo;</a></footer>
+                        <footer><a href="http://192.168.10.10:8008/learn/khan/" target="_blank">Ir &raquo;</a></footer>
                     </article>
                 </li>
                 <li class="one_third active">
