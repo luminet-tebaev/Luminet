@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+
+.welcome{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.welcome-left {
+    background-color:white;
+    position: fixed;
+    opacity: 0.75;
+    height: 40em;
+    width: 25em;
+    z-index: 1;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+/*Effect in image-------------------------------*/
+.welcome-logo{
+    margin-top: 2.5em;
+    max-width: 90%;
+    z-index: 5;
+    animation: infinite bright 1.5s;
+}
+  @keyframes bright {
+    0%,100%{
+      opacity: 1;
+    }
+    50%{
+        opacity: 0.75;    
+    }
+  
+  }
+
+/*Initial Button ---------------------------------*/
+.welcome-btn{
+    padding: 5em;
+}
+.welcome-btnImg{
+    width: 10%;
+}
+.welcome-btnImg:hover{
+    width: 11%;
+}
+
+
+/*Title effect------------------------------------*/
+.welcome-effect{
+    padding: 3em;
+}
+
+span{
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.8em;
+    color: blue;
+    opacity: 0.7;
+
+}

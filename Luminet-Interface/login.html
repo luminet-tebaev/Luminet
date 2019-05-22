@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luminet Platform</title>
+    <!-- Complements ---------->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fonts ---------------->
+    <link href="https://fonts.googleapis.com/css?family=Thasadith&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Style Sheets ---------> 
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+    <!-- Login Section ------------------------>
+    <section class="login">
+      <img class="login-background" src="./img/background-initial.jpg" alt="">
+      <div class="container"> 
+          <div class="row login-row">
+            <div class="col-sm login-left">
+              <h1 class="login-title">LOGIN</h1>
+              <p class="login-paragrah">Bienvenido a la plataforma Luminet, por favor ingresa tu nombre de usuario y contraseña en el formulario de la sección derecha para brindarte una mejor experiencia de navegación.</p>
+            </div>
+            <div class="col-sm login-right">
+                <form class="login-form" action="/action_page.php">
+                  <div class="imgcontainer">
+                    <img src="./img/teamwork.png" alt="Avatar" class="avatar">
+                  </div>
+                
+                  <div class="container login-container">
+                    <label for="uname"><b>NOMBRE DE USUARIO:</b></label>
+                    <input type="text" placeholder="Ingresa tu Nombre de Usuario" name="uname" required>
+                
+                    <label for="psw"><b>CONTRASEÑA:</b></label>
+                    <input type="password" placeholder="Ingresa tu Contraseña" name="psw" required>
+                        
+                    <button type="submit">ENTRAR</button>
+                  </div>             
+                </form>  
+            </div>
+          </div>
+        </div>
+    </section> 
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+</body>
+</html>

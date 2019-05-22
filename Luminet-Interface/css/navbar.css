@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+.navbar-icon{
+  width: 10%;
+  position: fixed;
+}
+#navbar {
+    margin-left: -1em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 999999999;
+  }
+  
+  #navbar a {
+    margin-right: 1em;
+    float: right;
+    display: block;
+    color: #0B0062;
+    opacity: 1;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Thasadith';
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .card-container {
+    padding: 2px 16px;
+  }

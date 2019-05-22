@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    padding: 1px;
+    max-width: 70%;
+}
+
+/*Slides Settings--------------------------------*/
+.login-row {
+    margin-top: 10%;
+}
+.login-title{
+    font-family: 'Thasadith', sans-serif;
+    color: black;
+    font-size: 2em;
+    font-style: bold;
+    text-align: left;
+}
+.login-paragrah{
+    font-family: 'Poiret One', cursive;
+    color: black;
+    text-align: justify;
+    margin: 0 1.5em 0 1.5em;
+    font-size: 1em;
+    font-style: bold;
+}
+.login-background{
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+    z-index: -10 !important;
+    position: absolute;
+}
+.login-left{
+    background-color: white;
+    opacity: 0.93;
+    padding: 2.5em 0.8em 2.5em 1.3em;
+    height: 16em;
+    margin-top: 10%;
+    max-width: 45%;
+}
+.login-right{
+    background-image: linear-gradient(to bottom, #0b0062, #00247b, #003f8f, #0059a0, #0073ae, #0081b4, #008fb8, #009cba, #00a2b6, #00a7b0, #00aca8, #27b09e);
+    opacity: 0.98;
+    /*margin-top: 23%;*/
+}
+
+/*Login Form---------------------------------*/
+.login-form{
+    font-family: 'Poiret One', cursive;
+    padding: 0.5em 0em;
+}
+.login-form > label{
+    font-style: bold;
+    font-size: 1em;
+    letter-spacing: 0.09em;
+    text-align: left;
+}
+.login-container > input[type=text], 
+.login-container > input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color:black;
+  font-size: 1em;
+}
+.login-container > button {
+  background-color:#9ede11;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: 1em;
+}
+.login-container > button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.avatar {
+  width: 20%;
+}

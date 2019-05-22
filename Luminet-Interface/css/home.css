@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+.home{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important;
+}
+.home-logo {
+    width: 45%;
+    display: block;
+    margin: auto;
+    opacity: 1;
+    padding-top: 30%;
+}
+.home-btnImg{
+    width: 5%;
+}
