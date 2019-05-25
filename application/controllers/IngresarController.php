@@ -9,12 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //use App\models\Model_Ingresar;
 class IngresarController extends CI_Controller{
 
- /*   function __construct()
+   function __construct()
     {
         parent::__construct();
         $this->load->model('Model_Ingresar');
     }
-*/
 
     public function programa(){
         $datos=$this->input->post();
@@ -53,12 +52,53 @@ class IngresarController extends CI_Controller{
 
 
     public function materia(){
-        //echo "Hola";
-        $datos=$this->input->post();
-        $programa=$datos['idPrograma'];
 
-        echo $programa;
+        $datos=$this->input->post();
+        $materia=$datos['materia'];
+        $semestre=$datos['idSemestre'];
+
+        $this->Model_Ingresar->ingresarMateria($materia,$semestre);
+        redirect('/');
     }
 
+    public function bloques(){
+
+        $datos=$this->input->post();
+        $bloque=$datos['bloque'];
+        $materia=$datos['idMateria'];
+
+        $this->Model_Ingresar->ingresarBloque($bloque,$materia);
+        redirect('/');
+    }
+
+    public function contenido(){
+
+        $datos=$this->input->post();
+        $contenido=$datos['contenido'];
+        $bloque=$datos['idBloque'];
+
+        $this->Model_Ingresar->ingresarContenido($contenido,$bloque);
+        redirect('/');
+    }
+
+    public function tema(){
+
+        $datos=$this->input->post();
+        $tema=$datos['tema'];
+        $contenido=$datos['idContenido'];
+
+        $this->Model_Ingresar->ingresarTema($tema,$contenido);
+        redirect('/');
+    }
+
+    public function subtema(){
+
+        $datos=$this->input->post();
+        $tema=$datos['idTema'];
+        $subtema=$datos['subtema'];
+
+        $this->Model_Ingresar->ingresarSubtema($tema,$subtema);
+        redirect('/');
+    }
 
 }
