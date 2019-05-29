@@ -6,6 +6,7 @@ class MainController extends CI_Controller{
 
     public function index()
     {
+        $this->load->helper('url');
         $this->load->model("Model_Ingresar");
         $data['conProgramas']=$this->Model_Ingresar->conProgramas();
         $data['conSemestre']=$this->Model_Ingresar->conSemestre();
@@ -15,4 +16,19 @@ class MainController extends CI_Controller{
         $data['conTema']=$this->Model_Ingresar->conTema();
         $this->load->view("crud/index",$data);
     }
+
+    public function inicio(){
+        $this->load->helper('url');
+        $this->load->model("Model_Ingresar");
+        $data['conProgramas']=$this->Model_Ingresar->conProgramas();
+        $data['conSemestre']=$this->Model_Ingresar->conSemestre();
+        $data['conMateria']=$this->Model_Ingresar->conMateria();
+        $data['conBloque']=$this->Model_Ingresar->conBloque();
+        $data['conContenido']=$this->Model_Ingresar->conContenido();
+        $data['conTema']=$this->Model_Ingresar->conTema();
+        $data['conSubtema']=$this->Model_Ingresar->conSubtema();
+        $this->load->view("crud/inicio",$data);
+    }
+
+
 }
