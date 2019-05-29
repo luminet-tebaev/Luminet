@@ -20,7 +20,7 @@ class IngresarController extends CI_Controller{
         $datos1=$datos['nombreprograma'];
 
         $this->Model_Ingresar->ingresarPrograma($datos1);
-        redirect('/');
+        redirect('index.php/mainController/index');
 
     }
 
@@ -30,7 +30,7 @@ class IngresarController extends CI_Controller{
         $semestre=$datos['semestre'];
 
         $this->Model_Ingresar->ingresarSemestre($programa,$semestre);
-        redirect('/');
+        redirect('index.php/mainController/index');
 
     }
 
@@ -58,7 +58,7 @@ class IngresarController extends CI_Controller{
         $semestre=$datos['idSemestre'];
 
         $this->Model_Ingresar->ingresarMateria($materia,$semestre);
-        redirect('/');
+        redirect('index.php/mainController/index');
     }
 
     public function bloques(){
@@ -68,7 +68,7 @@ class IngresarController extends CI_Controller{
         $materia=$datos['idMateria'];
 
         $this->Model_Ingresar->ingresarBloque($bloque,$materia);
-        redirect('/');
+        redirect('index.php/mainController/index');
     }
 
     public function contenido(){
@@ -78,7 +78,7 @@ class IngresarController extends CI_Controller{
         $bloque=$datos['idBloque'];
 
         $this->Model_Ingresar->ingresarContenido($contenido,$bloque);
-        redirect('/');
+        redirect('index.php/mainController/index');
     }
 
     public function tema(){
@@ -88,7 +88,7 @@ class IngresarController extends CI_Controller{
         $contenido=$datos['idContenido'];
 
         $this->Model_Ingresar->ingresarTema($tema,$contenido);
-        redirect('/');
+        redirect('index.php/mainController/index');
     }
 
     public function subtema(){
@@ -98,7 +98,7 @@ class IngresarController extends CI_Controller{
         $subtema=$datos['subtema'];
 
         $this->Model_Ingresar->ingresarSubtema($tema,$subtema);
-        redirect('/');
+        redirect('index.php/mainController/index');
     }
 
 }

@@ -16,9 +16,9 @@ class Model_Ingresar extends CI_Model{
         //$query=$this->db->query("select * from programas");
         $query=$this->db->get('programas');
 
-        if($query->num_rows() > 0){
+        //if($query->num_rows() > 0){
             return $query->result();
-        }
+        //}
 
     }
 
@@ -26,9 +26,9 @@ class Model_Ingresar extends CI_Model{
         //$query=$this->db->query("select * from programas");
         $query=$this->db->get('semestres');
 
-        if($query->num_rows() > 0){
+        //if($query->num_rows() > 0){
             return $query->result();
-        }
+        //}
 
     }
 
@@ -36,9 +36,9 @@ class Model_Ingresar extends CI_Model{
         //$query=$this->db->query("select * from programas");
         $query=$this->db->get('materias');
 
-        if($query->num_rows() > 0){
+        //if($query->num_rows() > 0){
             return $query->result();
-        }
+        //}
 
     }
 
@@ -47,29 +47,36 @@ class Model_Ingresar extends CI_Model{
         //$query=$this->db->query("select * from programas");
         $query=$this->db->get('bloques');
 
-        if($query->num_rows() > 0){
+       // if($query->num_rows() > 0){
             return $query->result();
-        }
+        //}
 
     }
 
     public function conContenido(){
-        //$query=$this->db->query("select * from programas");
         $query=$this->db->get('contenidos');
 
-        if($query->num_rows() > 0){
+        //if($query->num_rows() > 0){
             return $query->result();
-        }
+       // }
 
     }
 
     public function conTema(){
-        //$query=$this->db->query("select * from programas");
         $query=$this->db->get('temas');
 
-        if($query->num_rows() > 0){
+       // if($query->num_rows() > 0){
             return $query->result();
-        }
+        //}
+
+    }
+
+    public function conSubtema(){
+        $query=$this->db->get('subtemas');
+
+        //if($query->num_rows() > 0){
+            return $query->result();
+       // }
 
     }
     /*
