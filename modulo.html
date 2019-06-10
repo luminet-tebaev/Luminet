@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luminet Platform - modulo</title>
+    <!-- Complements ---------->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fonts ---------------->
+    <link href="https://fonts.googleapis.com/css?family=Thasadith&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <!-- Style Sheets ---------> 
+    <link rel="stylesheet" href="./css/module.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    
+</head>
+<body>
+
+    <!--Toggle Bar Section ------------------->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="./home.html">HOME</a>
+        <a href="#">Wikipedia</a>
+        <a href="#">Khan Academy</a>
+        <a href="#">Biblioteca </a>
+        <a href="#">Videoteca</a>
+        <a href="#">Didácticos</a>
+        <a href="#">Extras </a>
+     </div>
+     <div class="col-11 module-menucon">
+            <button class="openbtn" onclick="openNav()">☰</button>
+     </div>
+     
+     <!--Module Section ------------------->
+    <section class="module" >
+        <div class="container-fluid module" >
+            <div class="row">
+                <div class="col-6 module-left text-center" 
+                    style="background-image:url('./img/modules/didacticos.jpg');" >  
+                    <h1 class="module-h1">MATERIAL DIDÁCTICO</h1>   
+                </div>
+                <div class="col-6 module-right">
+                        <button class="accordion">1er Semestre</button>
+                        <div class="panel">
+                            <button class="accordion">Matemáticas I</button>
+                            <div class="panel">
+                                <button class="accordion">Bloque 1</button>
+                                <div class="panel">
+                                    <ul>Fracciones.pdf</ul>
+                                    <ul>Angulos.pdf</ul>
+                                    <ul>Proporciones.pdf</ul>
+                                    <ul>Teoremas.pdf</ul>
+                                </div>
+                                <button class="accordion">Bloque 2</button>
+                                <button class="accordion">Bloque 3</button>
+                                <button class="accordion">Bloque 4</button>
+                            </div>
+                            <button class="accordion">Español I</button>
+                            <button class="accordion">Matemáticas</button>
+                        </div>
+                        
+                        <button class="accordion">2do Semestre</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion">3er Semestre</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button class="accordion">4to Semestre</button>
+                        <div class="panel">
+                          1er Semestre
+                        </div>
+                        
+                        <button class="accordion">5to Semestre</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
+                        <button class="accordion">6to Semestre</button>
+                        <div class="panel">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="./js/toggleBar.js"></script>  
+    <script src="./js/accordion.js"></script>  
+
+</body>
+</html>

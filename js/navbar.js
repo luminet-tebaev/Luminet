@@ -10,7 +10,6 @@ function scrollFunction() {
     document.getElementById("menu-1").style.color = "white";
     document.getElementById("menu-2").style.color = "white";
     document.getElementById("menu-3").style.color = "white";
-
   }
 
 }

@@ -21,3 +21,16 @@ body{
 .home-btnImg{
     width: 5%;
 }
+footer{
+    margin-top: 3em;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 1, 66);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Thasadith';
+
+}
