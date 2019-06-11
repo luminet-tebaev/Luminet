@@ -28,7 +28,10 @@ body{
     font-weight: bolder; 
 }
 .module-right >.accordion{
-    margin-top: 6px;
+    margin-top: 10px;
+}
+.panel > .accordion{
+    margin-top: 4px;
 }
 .accordion:hover{
     background-image: linear-gradient(to right, #59e7b0, #4be4b9, #3ee1c1, #33dec9, #2cdbcf, #00d2da, #00c9e1, #00bfe5, #00abec, #0094f0, #007bec, #2f5cde);
@@ -119,7 +122,7 @@ body{
   }
   
   .panel {
-    padding: 0 18px;
+    padding: 0 0 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
