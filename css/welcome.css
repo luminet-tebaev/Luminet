@@ -11,7 +11,7 @@ body{
     background-size: cover !important;
     width: 100% !important;
     height: 100vh !important;
-    background-image: url("../img/background/index-320x480.png")
+    background-image: url("../img/background/index-320x480.png");
 }
 
 .welcome-left {
@@ -73,7 +73,7 @@ span{
 /* -- Responsive ---------------------------------*/
 @media screen and (min-width : 400px) {
     .welcome{
-        background-image: url("../img/background/index-768x1024.png")
+        background-image: url("../img/background/index-768x1024.png");
     }
     .welcome-left{
         width: 50vw;
@@ -116,7 +116,7 @@ span{
 
 @media screen and (min-width : 768px) {
     .welcome{
-        background-image: url("../img/background/index-1024x768.png")
+        background-image: url("../img/background/index-1024x768.png");
     }
     .welcome-left {
         margin-left: 0vw;
@@ -149,7 +149,7 @@ span{
 
 @media screen and (min-width : 1024px) {
     .welcome{
-        background-image: url("../img/background/index-1680x1050.png")
+        background-image: url("../img/background/index-1680x1050.png");
     }
     .welcome-left {
         width: 25vw;
@@ -161,7 +161,7 @@ span{
 }
 @media screen and (min-width : 1500px) {
     .welcome{
-        background-image: url("../img/background/index-1920x1080.png")
+        background-image: url("../img/background/index-1920x1080.png");
     }
     .welcome-left {
         margin-left: 0vw;
