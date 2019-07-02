@@ -43,7 +43,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi("./public/files/VideotecaOficial/1_Semestre/");
+		ordenarCarpetasVideoOfi("./public/files/VideotecaOficial/1_Semestre");
 		function ordenarCarpetasVideoOfi($ruta)
 		{
 			unset($files);
@@ -101,7 +101,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi2("./public/files/VideotecaOficial/2_Semestre/");
+		ordenarCarpetasVideoOfi2("./public/files/VideotecaOficial/2_Semestre");
 		function ordenarCarpetasVideoOfi2($ruta)
 		{
 			unset($files);
@@ -159,7 +159,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi3("./public/files/VideotecaOficial/3_Semestre/");
+		ordenarCarpetasVideoOfi3("./public/files/VideotecaOficial/3_Semestre");
 		function ordenarCarpetasVideoOfi3($ruta)
 		{
 			unset($files);
@@ -218,7 +218,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi4("./public/files/VideotecaOficial/4_Semestre/");
+		ordenarCarpetasVideoOfi4("./public/files/VideotecaOficial/4_Semestre");
 		function ordenarCarpetasVideoOfi4($ruta)
 		{
 			unset($files);
@@ -276,7 +276,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi5("./public/files/VideotecaOficial/5_Semestre/");
+		ordenarCarpetasVideoOfi5("./public/files/VideotecaOficial/5_Semestre");
 		function ordenarCarpetasVideoOfi5($ruta)
 		{
 			unset($files);
@@ -334,7 +334,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi6("./public/files/VideotecaOficial/6_Semestre/");
+		ordenarCarpetasVideoOfi6("./public/files/VideotecaOficial/6_Semestre");
 		function ordenarCarpetasVideoOfi6($ruta)
 		{
 			unset($files);
@@ -392,7 +392,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi7("./public/files/VideotecaOficial/Formación_Para_el_Trabajo/");
+		ordenarCarpetasVideoOfi7("./public/files/VideotecaOficial/Formación_Para_el_Trabajo");
 		function ordenarCarpetasVideoOfi7($ruta)
 		{
 			unset($files);
@@ -450,7 +450,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi8("./public/files/VideotecaOficial/Actividades_Paraescolares/");
+		ordenarCarpetasVideoOfi8("./public/files/VideotecaOficial/Actividades_Paraescolares");
 		function ordenarCarpetasVideoOfi8($ruta)
 		{
 			unset($files);
@@ -508,7 +508,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasVideoOfi9("./public/files/VideotecaOficial/Barra_Sabatina/");
+		ordenarCarpetasVideoOfi9("./public/files/VideotecaOficial/Barra_Sabatina");
 		function ordenarCarpetasVideoOfi9($ruta)
 		{
 			unset($files);

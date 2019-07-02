@@ -42,7 +42,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetas1("./public/files/Biblioteca/Literatura_General/");
+		ordenarCarpetas1("./public/files/Biblioteca/Literatura_General");
 		function ordenarCarpetas1($ruta)
 		{
 			unset($files);
@@ -100,7 +100,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio("./public/files/Biblioteca/1_Semestre/");
+		ordenarCarpetasBiblio("./public/files/Biblioteca/1_Semestre");
 		function ordenarCarpetasBiblio($ruta)
 		{
 			unset($files);
@@ -158,7 +158,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio2("./public/files/Biblioteca/2_Semestre/");
+		ordenarCarpetasBiblio2("./public/files/Biblioteca/2_Semestre");
 		function ordenarCarpetasBiblio2($ruta)
 		{
 			unset($files);
@@ -216,7 +216,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio3("./public/files/Biblioteca/3_Semestre/");
+		ordenarCarpetasBiblio3("./public/files/Biblioteca/3_Semestre");
 		function ordenarCarpetasBiblio3($ruta)
 		{
 			unset($files);
@@ -275,7 +275,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio4("./public/files/Biblioteca/4_Semestre/");
+		ordenarCarpetasBiblio4("./public/files/Biblioteca/4_Semestre");
 		function ordenarCarpetasBiblio4($ruta)
 		{
 			unset($files);
@@ -333,7 +333,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio5("./public/files/Biblioteca/5_Semestre/");
+		ordenarCarpetasBiblio5("./public/files/Biblioteca/5_Semestre");
 		function ordenarCarpetasBiblio5($ruta)
 		{
 			unset($files);
@@ -391,7 +391,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio6("./public/files/Biblioteca/6_Semestre/");
+		ordenarCarpetasBiblio6("./public/files/Biblioteca/6_Semestre");
 		function ordenarCarpetasBiblio6($ruta)
 		{
 			unset($files);
@@ -449,7 +449,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio7("./public/files/Biblioteca/APE/");
+		ordenarCarpetasBiblio7("./public/files/Biblioteca/APE");
 		function ordenarCarpetasBiblio7($ruta)
 		{
 			unset($files);
@@ -508,7 +508,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasBiblio8("./public/files/Biblioteca/Audiolibros_inclusion/");
+		ordenarCarpetasBiblio8("./public/files/Biblioteca/Audiolibros_inclusion");
 		function ordenarCarpetasBiblio8($ruta)
 		{
 			unset($files);

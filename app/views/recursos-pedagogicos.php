@@ -42,7 +42,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasRecur("./public/files/RecursosPedagogicos/Programas_Educativos/");
+		ordenarCarpetasRecur("./public/files/RecursosPedagogicos/Programas_Educativos");
 		function ordenarCarpetasRecur($ruta)
 		{
 			unset($files);
@@ -100,7 +100,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasRecur2("./public/files2/");
+		ordenarCarpetasRecur2("./public/files2");
 		function ordenarCarpetasRecur2($ruta)
 		{
 			unset($files);
@@ -159,7 +159,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasRecur3("./public/files/RecursosPedagogicos/Ingreso_a_Educación_Superior/");
+		ordenarCarpetasRecur3("./public/files/RecursosPedagogicos/Ingreso_a_Educación_Superior");
 		function ordenarCarpetasRecur3($ruta)
 		{
 			unset($files);
@@ -217,7 +217,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasRecur4("./public/files/RecursosPedagogicos/OEVSyT/");
+    ordenarCarpetasRecur4("./public/files/RecursosPedagogicos/OEVSyT");
     function ordenarCarpetasRecur4($ruta)
     {
       unset($files);
@@ -267,7 +267,7 @@
                    }
                 ?>
             </details>
-            <!-------------------------------------------------------------------------------------OEVSyT Anexos --------------------->
+            <!-------------------------------------------------------------------------------------OEVSyT Anexos-->
             <details>
                 <summary>
                     <i class="fa fa-folder" style=""></i>
@@ -275,7 +275,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasRecur5("./public/files/RecursosPedagogicos/OEVSyT_Anexos/");
+    ordenarCarpetasRecur5("./public/files/RecursosPedagogicos/OEVSyT_Anexos");
     function ordenarCarpetasRecur5($ruta)
     {
       unset($files);
@@ -324,8 +324,8 @@
       }                               
                    }
                 ?>
-            </details> 
-                    <!-------------------------------------------------------------------------------------EMPRENDEDORES-->
+            </details>
+            <!-------------------------------------------------------------------------------------EMPRENDEDORES-->
             <details>
                 <summary>
                     <i class="fa fa-folder" style=""></i>
@@ -333,7 +333,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasRecur6("./public/files/RecursosPedagogicos/Emprendedores/");
+    ordenarCarpetasRecur6("./public/files/RecursosPedagogicos/Emprendedores");
     function ordenarCarpetasRecur6($ruta)
     {
       unset($files);
@@ -391,7 +391,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasRecur7("./public/files/RecursosPedagogicos/Normas/");
+    ordenarCarpetasRecur7("./public/files/RecursosPedagogicos/Normas");
     function ordenarCarpetasRecur7($ruta)
     {
       unset($files);
@@ -449,7 +449,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasRecur8("./public/files/RecursosPedagogicos/Aplicaciones_Móviles/");
+    ordenarCarpetasRecur8("./public/files/RecursosPedagogicos/Aplicaciones_Móviles");
     function ordenarCarpetasRecur8($ruta)
     {
       unset($files);

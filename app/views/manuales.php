@@ -42,7 +42,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasManua("./public/files/Manuales/Manuales_de_usuario/");
+		ordenarCarpetasManua("./public/files/Manuales/Manuales_de_usuario");
 		function ordenarCarpetasManua($ruta)
 		{
 			unset($files);
@@ -100,7 +100,7 @@
                 </summary>
                 <?php 
 		$files = array();
-		ordenarCarpetasManua2("./public/files/Manuales/Videotutoriales/");
+		ordenarCarpetasManua2("./public/files/Manuales/Videotutoriales");
 		function ordenarCarpetasManua2($ruta)
 		{
 			unset($files);

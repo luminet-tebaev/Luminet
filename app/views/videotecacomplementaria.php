@@ -42,7 +42,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasVideCom("./public/files/VideotecaComplementaria/asignaturas/");
+    ordenarCarpetasVideCom("./public/files/VideotecaComplementaria/asignaturas");
     function ordenarCarpetasVideCom($ruta)
     {
       unset($files);
@@ -100,7 +100,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasVideCom2("./public/files/VideotecaComplementaria/cpt/");
+    ordenarCarpetasVideCom2("./public/files/VideotecaComplementaria/cpt");
     function ordenarCarpetasVideCom2($ruta)
     {
       unset($files);
@@ -158,7 +158,7 @@
                 </summary>
                 <?php 
     $files = array();
-    ordenarCarpetasVideCom3("./public/files/VideotecaComplementaria/listas1a6/");
+    ordenarCarpetasVideCom3("./public/files/VideotecaComplementaria/listas1a6");
     function ordenarCarpetasVideCom3($ruta)
     {
       unset($files);
